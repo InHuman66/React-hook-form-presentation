@@ -1,7 +1,14 @@
-.App {
-  text-align: center;
-}
 
+.app_background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
